@@ -15,9 +15,10 @@ npm install
 
 Cần chạy lệnh sau để tham chiếu cái function getStrings của project vào lib      
 - String cần kế thừa ResourceStringCommon
-- Color cần kế thừa ColorsCommon
+Thêm cái này vào lúc loading đầu app
 ```
-setStringsRef([getStringsFunction])
+setStringsRef(getStrings);
+setColorRef(Colors);
 ```
 
 ###### sử dụng như sau: 
