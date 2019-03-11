@@ -49,7 +49,7 @@ export interface ResourceStringCommon {
 }
 
 // let strs:ResourceString = {}
-function loadStringResource() {
+function loadStringCommonResource() {
     if (StringsCommons == null) {
         StringsCommons = {
             Ok: "OK",
@@ -73,6 +73,6 @@ function loadStringResource() {
 export function getStringsCommon(): ResourceStringCommon {
     if (getStringsRef != null) return getStringsRef();
     console.log("ERROR: ===== getStringsCommon Not Reference ====");
-    loadStringResource();
+    loadStringCommonResource();
     return StringsCommons;
 }

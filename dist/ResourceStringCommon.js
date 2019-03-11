@@ -5,7 +5,7 @@ export function setStringsRef(getStringsFunction) {
     getStringsRef = getStringsFunction;
 }
 // let strs:ResourceString = {}
-function loadStringResource() {
+function loadStringCommonResource() {
     if (StringsCommons == null) {
         StringsCommons = {
             Ok: "OK",
@@ -29,6 +29,6 @@ export function getStringsCommon() {
     if (getStringsRef != null)
         return getStringsRef();
     console.log("ERROR: ===== getStringsCommon Not Reference ====");
-    loadStringResource();
+    loadStringCommonResource();
     return StringsCommons;
 }
