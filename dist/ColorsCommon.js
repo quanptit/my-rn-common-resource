@@ -1,6 +1,8 @@
 let colorRef;
 let colorsCommon;
-// Cần gọi hàm này lúc khởi tạo ứng dụng
+/**
+ * Tham chiếu đến cái Enum Color của main project.
+ * */
 export function setColorRef(colors) {
     colorRef = colors;
 }

@@ -1,13 +1,18 @@
 let colorRef;
 let colorsCommon: ColorsCommon;
 
+/**
+ * Enum Color của main project phải có 3 thuộc tính này
+ */
 export interface ColorsCommon {
     primaryColor: string
     primaryDaskColor: string
     bgMain: string,
 }
 
-// Cần gọi hàm này lúc khởi tạo ứng dụng
+/**
+ * Tham chiếu đến cái Enum Color của main project.
+ * */
 export function setColorRef(colors: any) {
     colorRef = colors;
 }
