@@ -39,5 +39,6 @@ export interface ResourceStringCommon {
     dong_bo_tai_khoan?: string;
     SUBMIT?: string;
     Next?: string;
+    search_languge?: string;
 }
 export declare function getStringsCommon(): ResourceStringCommon;
