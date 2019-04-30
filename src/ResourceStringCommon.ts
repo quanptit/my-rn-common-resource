@@ -47,6 +47,13 @@ export interface ResourceStringCommon {
     SUBMIT?: string
     Next?: string
     search_languge?: string
+    Nghe_lai?:string
+    Ghi_am?:string
+    Stop?:string
+    tap_to_speak?:string
+    dang_thu_am_noi?: string
+
+    Thong_tin_ve_tu?:string
 }
 
 // let strs:ResourceString = {}
