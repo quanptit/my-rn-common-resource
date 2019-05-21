@@ -13,12 +13,12 @@ export interface ResourceStringCommon {
     review_description: string
     yes_sure: string
     remind_me_late: string
-    Yes: string
-    No: string
-    CLOSE_X: string
-    loading_: string
+    Yes?: string
+    No?: string
+    CLOSE_X?: string
+    loading_?: string
     Install_now: string,
-    not_empty: string,
+    not_empty?: string,
     need_external_module: string,
     Anonymous: string,
     Click_nangcap?: string
