@@ -52,7 +52,7 @@ export interface ResourceStringCommon {
     Stop?:string
     tap_to_speak?:string
     dang_thu_am_noi?: string
-
+    confirmQuitDes?:string
     Thong_tin_ve_tu?:string
 }
 
