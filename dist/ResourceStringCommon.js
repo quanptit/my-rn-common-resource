@@ -22,6 +22,8 @@ function loadStringCommonResource() {
             Install_now: "Install Now",
             need_external_module: "Function needs external module, please install it first.",
             Anonymous: "Anonymous",
+            confirmQuitDes: "Are you sure want to quit?",
+            search: "search"
         };
     }
 }

@@ -39,7 +39,7 @@ export interface ResourceStringCommon {
     dong_bo_tai_khoan?: string;
     SUBMIT?: string;
     Next?: string;
-    search_languge?: string;
+    search?: string;
     Nghe_lai?: string;
     Ghi_am?: string;
     Stop?: string;

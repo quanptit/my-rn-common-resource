@@ -46,7 +46,7 @@ export interface ResourceStringCommon {
     dong_bo_tai_khoan?: string
     SUBMIT?: string
     Next?: string
-    search_languge?: string
+    search?: string
     Nghe_lai?:string
     Ghi_am?:string
     Stop?:string
@@ -74,6 +74,8 @@ function loadStringCommonResource() {
             Install_now: "Install Now",
             need_external_module: "Function needs external module, please install it first.",
             Anonymous: "Anonymous",
+            confirmQuitDes: "Are you sure want to quit?",
+            search: "search"
         };
     }
 }
