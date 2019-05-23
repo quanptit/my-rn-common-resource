@@ -1,19 +1,19 @@
 export declare function setStringsRef(getStringsFunction: any): void;
 export interface ResourceStringCommon {
-    Ok: string;
-    Cancel: string;
-    has_error: string;
-    review_description: string;
-    yes_sure: string;
-    remind_me_late: string;
+    Ok?: string;
+    Cancel?: string;
+    has_error?: string;
+    review_description?: string;
+    yes_sure?: string;
+    remind_me_late?: string;
     Yes?: string;
     No?: string;
     CLOSE_X?: string;
     loading_?: string;
-    Install_now: string;
+    Install_now?: string;
     not_empty?: string;
-    need_external_module: string;
-    Anonymous: string;
+    need_external_module?: string;
+    Anonymous?: string;
     Click_nangcap?: string;
     Click_dang_nhap_dong_bo?: string;
     Other_app?: string;
